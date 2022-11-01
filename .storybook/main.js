@@ -13,7 +13,7 @@ module.exports = {
     "builder": "@storybook/builder-vite"
   },
   async viteFinal(config, { configType }) {
-    config.base = './'
+    config.base = '/react-component-library-template/'
     return config
   },
   "features": {
